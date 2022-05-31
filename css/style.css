@@ -104,7 +104,7 @@
 }
 
 .project-txt-column {
-  padding: 75px 0 0 30px;
+  padding: 75px 60px 0 30px;
 }
 
 .work {
@@ -130,7 +130,7 @@
     display:none;
   }
   .project-txt-column {
-    padding: 0;
+    padding: 0 0 30px 0;
     text-align: center;
   }
 }
