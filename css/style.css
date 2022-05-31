@@ -45,15 +45,6 @@
   background-color: #6c63ff;
 }
 
-.developer-name {
-  color: var(--primary-color);
-  font-family: var(--primary-font);
-  font-size: 96px;
-  font-weight: 700;
-  line-height: 128px;
-  margin-bottom: 20px;
-}
-
 .division {
   color: var(--secondary-color);
   font-family: var(--secondary-font);
@@ -73,7 +64,39 @@
   margin-bottom: 0;
 }
 
-.presentation {
+.h1-about {
+  color: var(--primary-color);
+  font-family: var(--primary-font);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 85px;
+  margin-bottom: 20px;
+}
+
+.h1-index {
+  color: var(--primary-color);
+  font-family: var(--primary-font);
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 128px;
+  margin-bottom: 20px;
+}
+
+.meet {
+  color: var(--primary-color);
+  font-family: var(--primary-font);
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 55px;
+  margin: 0;
+}
+
+.presentation-about {
+  padding: 160px 20px;
+  margin-bottom: 75px;
+}
+
+.presentation-index {
   background-color: #f9f7fe;
   padding: 160px 20px;
   text-align: center;
@@ -107,7 +130,17 @@
   padding: 75px 60px 0 30px;
 }
 
-.work {
+.work-about {
+  color: var(--secondary-color);
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-bottom: 20px;
+}
+
+.work-index {
+  color: var(--secondary-color);
   font-family: var(--secondary-font);
   font-size: 24px;
   font-weight: 400;
@@ -119,11 +152,24 @@
   body {
     margin: 0 10px;
   }
-  .developer-name {
+  .about-developer-txt-column {
+    margin-bottom: 75px;
+  }
+  .h1-about {
+    line-height: 80px;
+  }
+  .h1-index {
     font-size: 64px;
     line-height: 78px;
   }
-  .presentation {
+  .meet {
+    font-size: 50px;
+  }
+  .presentation-about {
+    padding: 80px 20px;
+    text-align: center;
+  }
+  .presentation-index {
     padding: 80px 20px;
   }
   .project-img{
