@@ -11,14 +11,14 @@
   border-radius: 4px;
   font-family: var(--secondary-font);
   font-size: 16px;
-  font-weight:500;
+  font-weight: 500;
   line-height: 24px;
   padding: 18px 30px;
 }
 
 .btn-outline-primary:focus {
- background-color: #ffffff;
- color: #6c63ff;
+  background-color: #ffffff;
+  color: #6c63ff;
 }
 
 .btn-outline-primary:hover {
@@ -45,7 +45,9 @@
   background-color: #6c63ff;
 }
 
-.developer-img, project-img {
+.developer-img,
+.project-img-index,
+.project-img-work {
   border-radius: 20px;
 }
 
@@ -95,16 +97,16 @@
   margin: 0;
 }
 
-.presentation-about {
-  padding: 160px 20px;
-  margin-bottom: 75px;
-}
-
 .presentation-index {
   background-color: #f9f7fe;
   padding: 160px 20px;
   text-align: center;
   margin-bottom: 75px;
+}
+
+.presentation-other {
+  padding: 160px 80px 80px;
+  margin-bottom: 0;
 }
 
 .project {
@@ -121,13 +123,34 @@
   opacity: 0.7;
 }
 
-.project-name {
+.project-name-index {
   color: var(--primary-color);
   font-family: var(--primary-font);
   font-size: 64px;
   font-weight: 700;
-  line-height: : 85px;
+  line-height: 85px;
   margin-bottom: 48px;
+}
+
+.project-name-work {
+  color: var(--primary-color);
+  font-family: var(--secondary-font);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  margin: 18px 0;
+  text-align: center;
+}
+
+.project-technologies {
+  color: var(--secondary-color);
+  font-family: var(--secondary-font);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-bottom: 68px;
+  opacity: 0.7;
+  text-align: center;
 }
 
 .project-txt-column {
@@ -152,7 +175,7 @@
   margin-bottom: 50px;
 }
 
-@media(max-width:991px) {
+@media (max-width: 991px) {
   body {
     margin: 0 10px;
   }
@@ -169,15 +192,15 @@
   .meet {
     font-size: 50px;
   }
-  .presentation-about {
+  .presentation-other {
     padding: 80px 20px;
     text-align: center;
   }
   .presentation-index {
     padding: 80px 20px;
   }
-  .project-img{
-    display:none;
+  .project-img-index {
+    display: none;
   }
   .project-txt-column {
     padding: 0 0 30px 0;
