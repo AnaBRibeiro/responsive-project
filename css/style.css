@@ -45,6 +45,10 @@
   background-color: #6c63ff;
 }
 
+.developer-img, project-img {
+  border-radius: 20px;
+}
+
 .division {
   color: var(--secondary-color);
   font-family: var(--secondary-font);
@@ -64,21 +68,21 @@
   margin-bottom: 0;
 }
 
-.h1-about {
-  color: var(--primary-color);
-  font-family: var(--primary-font);
-  font-size: 64px;
-  font-weight: 700;
-  line-height: 85px;
-  margin-bottom: 20px;
-}
-
 .h1-index {
   color: var(--primary-color);
   font-family: var(--primary-font);
   font-size: 96px;
   font-weight: 700;
   line-height: 128px;
+  margin-bottom: 20px;
+}
+
+.h1-other {
+  color: var(--primary-color);
+  font-family: var(--primary-font);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 85px;
   margin-bottom: 20px;
 }
 
@@ -155,7 +159,7 @@
   .about-developer-txt-column {
     margin-bottom: 75px;
   }
-  .h1-about {
+  .h1-other {
     line-height: 80px;
   }
   .h1-index {
