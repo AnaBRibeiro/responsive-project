@@ -46,6 +46,20 @@
   background-color: var(--terciary-color);
 }
 
+.developer-github {
+  font-family: var(--secondary-font);
+  font-size: 14px;
+  color: var(--primary-color);
+  opacity: 0.7;
+}
+
+.developer-github-link {
+  color: var(--terciary-color);
+  font-family: var(--secondary-font);
+  font-size: 14px;
+  text-decoration: none;
+}
+
 .developer-img,
 .project-img-index,
 .project-img-work {
@@ -60,6 +74,46 @@
   line-height: 27px;
   margin-bottom: 75px;
   text-align: center;
+}
+
+footer {
+  margin-bottom: 25px;
+}
+
+.footer-contact {
+  background-color: #f9f7fe;
+  border-radius: 20px;
+  padding: 40px 130px 25px;
+  margin-bottom: 85px;
+}
+
+.footer-contact-subtitle {
+  color: var(--secondary-color);
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  opacity: 0.7;
+}
+
+.footer-contact-title {
+  font-family: var(--primary-font);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+}
+
+.footer-mail {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.footer-social-media {
+  text-align: center;
+}
+
+.footer-social-media-icons {
+  margin-bottom: 85px;
 }
 
 .greeting {
@@ -96,8 +150,10 @@
   text-decoration: none;
 }
 
+.developer-github-link:hover,
 .header-link-active:hover,
-.header-link-non-active:hover {
+.header-link-non-active:hover,
+.mail-link:hover {
   color: var(--terciary-color);
   opacity: 0.7;
 }
@@ -118,6 +174,15 @@
   font-weight: 700;
   line-height: 85px;
   margin-bottom: 20px;
+}
+
+.mail-link {
+  color: var(--primary-color);
+  font-family: var(--secondary-font);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  text-decoration: none;
 }
 
 .meet {
@@ -141,8 +206,8 @@
   margin-bottom: 0;
 }
 
-.project {
-  margin-bottom: 75px;
+.projects {
+  margin-bottom: 130px;
 }
 
 .project-description {
@@ -189,6 +254,21 @@
   padding: 75px 60px 0 30px;
 }
 
+.social-media-icon {
+  color: var(--terciary-color);
+  background-color: #f9f7fe;
+  border-radius: 50%;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 20px;
+  padding: 10px 12px;
+}
+
+.social-media-icon:hover {
+  background-color: var(--terciary-color);
+  color: #ffffff;
+}
+
 .work-about {
   color: var(--secondary-color);
   font-family: var(--secondary-font);
@@ -208,6 +288,10 @@
 }
 
 @media (max-width: 767px) {
+  .footer-contact {
+    padding: 40px 0 25px;
+    text-align: center;
+  }
   .header-link {
     text-align: center;
   }
@@ -222,6 +306,9 @@
   }
   .about-developer-txt-column {
     margin-bottom: 75px;
+  }
+  .footer-contact {
+    padding: 40px 60px 25px;
   }
   .h1-other {
     line-height: 80px;
